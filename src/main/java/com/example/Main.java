@@ -14,6 +14,6 @@ public class Main {
 
     @GetMapping("/")
     public String home() {
-        return "<html><body style='background-color: blue; display: flex; justify-content: center; align-items: center; height: 100vh;'><h1 style='color: white;'>It is working!</h1></body></html>";
+        return "<html><body style='background-color: pink; display: flex; justify-content: center; align-items: center; height: 100vh;'><h1 style='color: white;'>It is working!</h1></body></html>";
     }
 }
